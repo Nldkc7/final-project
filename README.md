@@ -17,12 +17,25 @@ Some other notable statistics are the fact that diabetes 1&2 have higher BMIs, l
 decision tree accuracy= 0.7811415957111322
 linear regression accuracy= 0.15346014611882208
 decision tree accuracy vs %train:
+
 ![image](https://user-images.githubusercontent.com/92611961/166849040-7bc5b4c7-3a3a-456c-a989-5fe7a2a289dd.png)
+
+This graph consistently showed decrease accuracy as % train goes up
+
 linear regression accuracy vs %train:
+
 ![image](https://user-images.githubusercontent.com/92611961/166849094-bc3fba21-f422-4ec5-bf7b-da47b3674fbc.png)
+
+This plot had high variability in its accuracy with train%
+
 residules library regression:
+
 ![image](https://user-images.githubusercontent.com/92611961/166849215-c056e6be-022d-4feb-9472-2acf56104390.png)
+
 This plot shows that the majority of the distribution of the regression plot fell at or above 0 whith a minority distribution well below 0. The minority may be the diabetic diagnosed people. And the majority the non diabetics.
+
 ![image](https://user-images.githubusercontent.com/92611961/166849516-75b6aa62-fc90-490c-bf0b-04113ef817cd.png)
+
 This is plot_tree of a small portion of the columns in the data set, the reason for this choice is difficulties finding a plot that would fit the decision tree classifier fit I was using. It was simply too big to include all the columns or even most of the columns. I tried another method of visualization but it wasnt much better. I searched for a couple of hours and had a hard time finding alternatives to decision tree classification visualization.
+
 In regards to whether or not linear regression or decision tree classifier would be better for this data set. I think it is clear not only from the substantially increased accuracy of the decision tree classifier, but also the fact that decision tree classifiers are designed more for classification data sets when compared to regression
